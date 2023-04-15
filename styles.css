@@ -112,7 +112,7 @@
 
 .card img {
   height: 150px;
-  width: 150px;
+  width: 100%;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -178,4 +178,13 @@
   padding: 5px 25px;
   border-radius: 5px;
   font-weight: 600;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 35px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
 }
