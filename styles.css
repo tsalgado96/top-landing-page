@@ -147,3 +147,35 @@
   font-size: 24px;
   align-self: flex-end;
 }
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 10px;
+}
+
+.cta-text-container {
+  width: 900px;
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 5px;
+  gap: 120px;
+}
+
+.cta-text p {
+  color: #e1e1e1;
+}
+
+.cta-text-container button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: solid white 2px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+}
